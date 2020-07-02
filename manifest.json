@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Sidebar for 9Gag™",
+  "description": "Opera Sidebar Extension for 9Gag. Source: https://github.com/housamz/opera-extension-9gag",
+  "background": { "scripts": ["background.js"] },
+  "developer": {
+    "name": "housamz",
+    "url": "http://www.hmz.ie"
+  },
+  "icons": {
+    "16": "icons/icon_16.png",
+    "19": "icons/icon_19.png",
+    "48": "icons/icon_48.png",
+    "128": "icons/icon_128.png"
+  },
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "sidebar_action": {
+    "default_icon": "icons/icon_19.png",
+    "default_panel": "panel.html",
+    "default_title": "9Gag in Sidebar"
+  },
+  "version": "1.0.2"
+}
